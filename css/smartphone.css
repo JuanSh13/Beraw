@@ -1,0 +1,7 @@
+.home-container {
+  padding: 0 5rem;
+}
+.information-container h2 {
+  color: crimson;
+  font-size: var(--font-xxxl);
+} 

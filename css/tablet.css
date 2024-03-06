@@ -1,0 +1,23 @@
+
+
+.information-container h2 {
+  font-size: var(--font-xxxl);
+
+  color: aquamarine;
+}
+.home {
+  padding: 5rem;
+}
+.padding-tb-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+
+  padding: 9rem 0 6rem 0;
+}
+
+/* Testimonials Cards */
+.testimonials-cards {
+  display: flex;
+  gap: 3rem;
+}

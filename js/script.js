@@ -1,21 +1,21 @@
 // Barra de Navegacion Mobile 
-const barsIcon = document.querySelector('.bars-icon');
-const asideNavigation = document.querySelector('.aside-navigation');
+// const barsIcon = document.querySelector('.bars-icon');
+// const asideNavigation = document.querySelector('.aside-navigation');
 
-let active = false;
+// let active = false;
 
-barsIcon.addEventListener('click', () => {
+// barsIcon.addEventListener('click', () => {
 
-  if(!active) {
-    asideNavigation.style.display = "flex";
-    active = !active;
-  }
-  else {
-    asideNavigation.style.display = "none";
-    active = !active;
-  }
+//   if(!active) {
+//     asideNavigation.style.display = "flex";
+//     active = !active;
+//   }
+//   else {
+//     asideNavigation.style.display = "none";
+//     active = !active;
+//   }
 
-});
+// });
 
 let applicationsNumber =  document.querySelector('.applications-number');
 let clientsNumber =  document.querySelector('.clients-number');

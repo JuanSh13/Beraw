@@ -158,19 +158,27 @@ main {
 .home {
   width: 100%;
   height: 100vh;
-  padding-block: 2rem 2rem;
 
   text-align: center;
 }
 .home__container {
-  padding-inline: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  width: 100%;
+  height: 100%;
+  padding-inline: 10%;
 }
 
 /* section Information */
 .section-information h2 {
+  display: inline-block;
+
   width: 100%;
-  max-width: 340px;
-  margin-inline: auto;
+  /* max-width: 340px; */
+  /* margin-inline: auto; */
   margin-bottom: 2.5rem;
 
   color: var(--color-primary);
@@ -182,9 +190,11 @@ main {
   line-height: 5rem;
 }
 .section-information h3 {
+  display: inline-block;
+
   width: 100%;
-  max-width: 320px;
-  margin-inline: auto;
+  /* max-width: 320px; */
+  /* margin-inline: auto; */
   margin-bottom: 2.5rem;
   
   color: #525fe6;
@@ -194,9 +204,11 @@ main {
   line-height: 5rem;
 }
 .section-information p {
+  display: inline-block;
+
   width: 100%;
-  max-width: 340px;
-  margin-inline: auto;
+  /* max-width: 340px; */
+  /* margin-inline: auto; */
   margin-bottom: 2.5rem;
   
   color: #585858;
@@ -258,7 +270,7 @@ main {
   background-color: var(--bg-primary-);
 } 
 .services__container {
-  padding-inline: 3rem;
+  padding-inline: 10%;
 }
 
 /* Services Cards */
@@ -301,7 +313,7 @@ main {
   text-align: center;
 }
 .features-container {
-  padding-inline: 3rem;
+  padding-inline: 10%;
 }
 
 /* Features Cards */
@@ -351,7 +363,7 @@ main {
   /* background-color: red; */
 }
 .the-process-container {
-  padding-inline: 3rem;
+  padding-inline: 10%;
 }
 
 /* The Process Image */
@@ -384,7 +396,7 @@ main {
   text-align: center;
 }
 .trustworthy-container {
-  padding-inline: 3rem;
+  padding-inline: 10%;
 }
 
 /* Trustworthy Sponsor */
@@ -412,7 +424,7 @@ main {
   background: var(--bg-primary-);
 }
 .our-results-container {
-  padding-inline: 3rem;
+  padding-inline: 10%;
 }
 
 /* Statistics Results */
@@ -457,7 +469,7 @@ main {
   text-align: center;
 }
 .testimonials-container {
-  padding-inline: 3rem;
+  padding-inline: 10%;
 }
 /* Testimonials Cards */
 /* Testimonials Card */
@@ -510,7 +522,7 @@ main {
   background-color: var(--bg-primary-);
 }
 .plans-container {
-  padding-inline: 3rem;
+  padding-inline: 10%;
 }
 /* Plans Cards */
 .plans-cards {
@@ -601,7 +613,7 @@ main {
   background-size: cover;
 }
 .business-machine-container {
-  padding-inline: 3rem;
+  padding-inline: 10%;
 }
 
 
@@ -617,7 +629,7 @@ footer {
   flex-direction: column;
   align-items: center;
 
-  padding-inline: 4rem;
+  padding-inline: 10%;
 }
 
 footer > section h4 {

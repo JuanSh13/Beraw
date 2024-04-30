@@ -9,16 +9,17 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/smartphone.css" media="screen and (min-width: 425px)">
+	<link rel="stylesheet" href="css/smartphone.css" media="screen and (min-width: 550px)">
 	<link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 769px)">
-  <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1025px)">
+  <link rel="stylesheet" href="css/laptop.css" media="screen and (min-width: 1025px)">
+	<link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1441px)">
 
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<!-- AOS - Animate On Scroll Library -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
@@ -27,7 +28,6 @@
 </head>
 
 <body>
-
 	<!-- Header -->
 	<header id="header">
 		<!-- Logotype -->
@@ -45,12 +45,12 @@
 			<!-- Navigation List -->
 			<section class="navigation-list">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Features</a></li>
-					<li><a href="#">Reviews</a></li>
-					<li><a href="#">Pricing</a></li>
-					<li><a href="#">Register</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#reviews">Reviews</a></li>
+					<li><a href="#pricing">Pricing</a></li>
+					<li><a href="#register">Register</a></li>
 					<li>
 						<a href="#">
 							<i class="fa-brands fa-twitter"></i>
@@ -86,12 +86,12 @@
 			</section>
 			<!-- Aside Navigation - List -->
 			<ul class="aside-navigation__list">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Features</a></li>
-				<li><a href="#">Reviews</a></li>
-				<li><a href="#">Pricing</a></li>
-				<li><a href="#">Register</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+				<li><a href="#pricing">Pricing</a></li>
+				<li><a href="#register">Register</a></li>
 			</ul>
 			<!-- Aside Navigation - Social Networks -->
 			<ul class="aside-navigation__social-networks">
@@ -118,58 +118,63 @@
 		<!-- Main -->
 		<main id="main">
 			<!-- Home -->
-			<section class="home">
-				<!-- Welcome -->
-				<div class="home__container">
-					<article class="section-information">
-						<h2 data-aos="fade-right">Grow Your Business Now.</h2>
-						<h3>Welcome to beraw studio.</h3>
-						<p>Use the Feedback button at the bottom of the page to let us know how we can make it even better.</p>
-					</article>
-					<!-- Subscribe -->
-					<section class="subscribe">
-						<form>
-							<label for="email-label" class="email-label">
-								<input type="text" placeholder="Email" id="email-label">
-							</label>
-							<!-- Button -->
-							<div class="button-template">
-								<input type="submit" value="SUBSCRIBE">
-							</div>
-						</form>
-					</section>
+			<section class="home" id="home">
+				<!-- Home - Container -->
+				<div class="home-container">
+					<div class="home__main-content">
+						<!-- Section Information -->
+						<article class="section-information">
+							<h2>Grow Your Business Now.</h2>
+							<h3>Welcome to beraw studio.</h3>
+							<p>Use the Feedback button at the bottom of the page to let us know how we can make it even better.</p>
+						</article>
+
+						<!-- Subscribe -->
+						<section class="subscribe">
+							<form>
+								<label for="email-label" class="email-label">
+									<input type="text" placeholder="Email" id="email-label">
+								</label>
+								<!-- Button -->
+								<div class="button-template">
+									<input type="submit" value="SUBSCRIBE">
+								</div>
+							</form>
+						</section>
+					</div>
+
+					<!-- Home Image -->
+					<figure class="home__image">
+						<img src="assets/bg-01.png" alt="#">
+					</figure>
 				</div>
-				<!-- Home Image -->
-				<figure class="home-image">
-					<img src="assets/bg-01.png" alt="#">
-				</figure>
 			</section>
 
 			<!-- Services -->
-			<section class="services">
-				<div class="services__container">
+			<section class="services" id="services">
+				<div class="services-container">
 					<article class="section-information">
-						<h2 data-aos="fade-right">Services.</h2>
+						<h2>Services.</h2>
 						<h3>Lorem ipsum dolor simet banter.</h3>
 						<p>Use the Feedback button at the bottom of the page to let us know how we can make it even better.</p>
 					</article>
 					<section class="services-cards">
-						<article class="service-card">
+						<article class="services-card">
 							<span><i class="fa-solid fa-database"></i></span>
 							<h4>Database</h4>
 							<p>Nulla vitae elit libero elit non porta gravida eget metus cras egestas.</p>
 						</article>
-						<article class="service-card">
+						<article class="services-card">
 							<span><i class="fa-solid fa-cloud-arrow-up"></i></span>
 							<h4>Cloud Storage</h4>
 							<p>Nulla vitae elit libero elit non porta gravida eget metus cras egestas.</p>
 						</article>
-						<article class="service-card">
+						<article class="services-card">
 							<span><i class="fa-solid fa-server"></i></span>
 							<h4>Server Tools</h4>
 							<p>Nulla vitae elit libero elit non porta gravida eget metus cras egestas.</p>
 						</article>
-						<article class="service-card">
+						<article class="services-card">
 							<span><i class="fa-solid fa-code-fork"></i></span>
 							<h4>Group Work</h4>
 							<p>Nulla vitae elit libero elit non porta gravida eget metus cras egestas.</p>
@@ -179,64 +184,78 @@
 			</section>
 
 			<!-- Features -->
-			<section class="features">
+			<section class="features" id="features">
+				<!-- Features - Container -->
 				<div class="features-container">
-					<article class="section-information">
-						<h2 data-aos="fade-right">Features.</h2>
-						<h3>Lorem ipsum dolor simet.</h3>
-						<p>Use the Feedback button at the bottom of the page to let us.</p>
-					</article>
-					<section class="features-cards">
-						<article class="features-card">
-							<h4>
-								<span>
-									<i class="fa-solid fa-border-all"></i>
-								</span> Database Support
-							</h4>
-							<p>The page to let us know how we can make it even better.</p>
+					<!-- Features - Main Content -->
+					<div class="features__main-content">
+						<!-- Section Information -->
+						<article class="section-information">
+							<h2>Features.</h2>
+							<h3>Lorem ipsum dolor simet.</h3>
+							<p>Use the Feedback button at the bottom of the page to let us.</p>
 						</article>
-						<article class="features-card">
-							<h4>
-								<span>
-									<i class="fa-solid fa-image"></i>
-								</span> Server Support
-							</h4>
-							<p>The page to let us know how we can make it even better.</p>
-						</article>
-					</section>
-					<!-- Feactures Image -->
-					<figure class="features-image">
+
+						<!-- Features Cards -->
+						<section class="features-cards">
+							<!-- Features Card -->
+							<article class="features-card">
+								<h4>
+									<span>
+										<i class="fa-solid fa-border-all"></i>
+									</span> Database Support
+								</h4>
+								<p>The page to let us know how we can make it even better.</p>
+							</article>
+							<!-- Features Card -->
+							<article class="features-card">
+								<h4>
+									<span>
+										<i class="fa-solid fa-image"></i>
+									</span> Server Support
+								</h4>
+								<p>The page to let us know how we can make it even better.</p>
+							</article>
+						</section>
+					</div>
+					<!-- Features - Image -->
+					<figure class="features__image">
 						<img src="assets/bg-07.png" alt="">
 					</figure>
 				</div>
+				<!-- Feactures Image -->
 			</section>
 
 			<!-- The Process -->
 			<section class="the-process">
 				<div class="the-process-container">
-					<article class="section-information">
-						<h2 data-aos="fade-right">The Process.</h2>
-						<h3>Lorem ipsum dolor simet banter.</h3>
-						<p>Use the Feedback button at the bottom of the page to let us know how we can make it even better.</p>
-						<div class="button-template">
-							<button>SEE OUR OPTIONS</button>
-						</div>
-					</article>
-				</div>
-				<!-- The Process Image -->
-				<figure class="the-process-image">
-					<img src="assets/bg-02.jpg" alt="">
-					<div class="play">
-						<span><i class="fa-solid fa-circle-play"></i></span>
+					<div class="the-process__main-content">
+						<!-- Section Information -->
+						<article class="section-information">
+							<h2>The Process.</h2>
+							<h3>Lorem ipsum dolor simet banter.</h3>
+							<p>Use the Feedback button at the bottom of the page to let us know how we can make it even better.</p>
+							<div class="button-template">
+								<button>SEE OUR OPTIONS</button>
+							</div>
+						</article>
 					</div>
-				</figure>
+
+					<!-- The Process Image -->
+					<figure class="the-process__image">
+						<img src="assets/bg-02.jpg" alt="">
+						<div class="play">
+							<span><i class="fa-solid fa-circle-play"></i></span>
+						</div>
+					</figure>
+				</div>
 			</section>
 
 			<!-- We're Trustworthy -->
 			<section class="trustworthy">
 				<div class="trustworthy-container">
 					<article class="section-information">
-						<h2 data-aos="fade-right">We're Trustworthy.</h2>
+						<h2>We're Trustworthy.</h2>
 						<figure class="trustworthy-sponsor">
 							<img src="assets/brands/01.png" alt="#">
 							<img src="assets/brands/05.png" alt="#">
@@ -255,7 +274,7 @@
 			<section class="our-results">
 				<div class="our-results-container">
 					<article class="section-information">
-						<h2 data-aos="fade-right">Results.</h2>
+						<h2>Results.</h2>
 						<h3>Lorem ipsum dolor simet banter.</h3>
 						<p>Use the Feedback button at the bottom of the page to let us know how we can make it even better.</p>
 					</article>
@@ -286,10 +305,10 @@
 			</section>
 
 			<!-- Testimonials -->
-			<section class="testimonials">
+			<section class="testimonials" id="reviews">
 				<div class="testimonials-container">
 					<article class="section-information">
-						<h2 data-aos="fade-right">Testimonials.</h2>
+						<h2>Testimonials.</h2>
 						<h3>Lorem ipsum dolor simet banter.</h3>
 						<p>Use the Feedback button at the bottom of the page to let us know how we can make it even better.</p>
 					</article>
@@ -417,10 +436,10 @@
 			</section>
 
 			<!-- Plans -->
-			<section class="plans">
+			<section class="plans" id="pricing">
 				<div class="plans-container">
 					<article class="section-information">
-						<h2 data-aos="fade-right">Pricing.</h2>
+						<h2>Pricing.</h2>
 						<h3>Lorem ipsum dolor simet banter.</h3>
 						<p>Use the Feedback button at the bottom of the page to let us know how we can make it even better.</p>
 					</article>
@@ -451,10 +470,10 @@
 			</section>
 
 			<!-- Business Machine -->
-			<section class="business-machine">
+			<section class="business-machine" id="register">
 				<div class="business-machine-container">
 					<article class="section-information">
-						<h2 data-aos="fade-right">Turn Your Business Into A Profit Machine.</h2>
+						<h2>Turn Your Business Into A Profit Machine.</h2>
 						<h3>Lorem ipsum dolor simet banter.</h3>
 						<p>Use the Feedback button at the bottom of the page to let us know hof the page to let us know how we can make it even better.</p>
 					</article>

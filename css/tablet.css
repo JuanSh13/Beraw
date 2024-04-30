@@ -1,0 +1,25 @@
+/* section Information */
+.section-information h2 {
+  font-size: var(--font-xxxl);
+  line-height: 8.2rem;
+}
+.section-information h3 {
+  font-size: var(--font-xl);
+}
+.section-information p {
+  font-size: calc(var(--font-m) - 1px);
+}
+
+/* Main */
+/* Our Results */
+/* Statistics Results - Card */
+.statistics-results__card {
+  width: calc(25% - 1rem);
+}
+
+
+/* Plans */
+/* Plans Cards */
+.plans-cards {
+  flex-wrap: nowrap;
+}

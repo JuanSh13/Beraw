@@ -1,0 +1,39 @@
+/* Section Information */
+.section-information h2 {
+  font-size: var(--font-xxl);
+  /* line-height: 8.2rem; */
+}
+.section-information h3 {
+  font-size: var(--font-xl);
+}
+.section-information p {
+  font-size: calc(var(--font-m) - 1px);
+}
+
+/* Main */
+/* Services */
+/* Services Cards */
+.services-cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services-card {
+  width: calc(50% - 1rem);
+}
+
+/* Trustworthy Sponsor */
+.trustworthy-sponsor {
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+/* Our Results */
+/* Statistics Results */
+.statistics-results {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

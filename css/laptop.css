@@ -1,0 +1,168 @@
+/* Header */
+header {
+  justify-content: space-between;
+}
+
+/* Bars Icon */
+.bars-icon {
+  display: none;
+}
+
+/* Navigation List */
+.navigation-list {
+  display: flex;
+}
+.navigation-list ul {
+  display: flex;
+}
+.navigation-list ul li {
+  margin: 0 1em;
+
+  list-style: none;
+}
+.navigation-list ul li a {
+  text-decoration: none;
+  
+  color: var(--color-secundary);
+}
+.navigation-list ul li a:hover {
+  color: var(--color-tertiary);
+}
+
+/* Main */
+/* Home */
+.home {
+  height: 100%;
+  max-height: 100vh;
+
+  text-align: start;
+}
+/* Home Container */
+.home-container {
+  display: flex;
+  flex-direction: row;
+
+  padding-inline: 10%;
+}
+/* Home - Main Content */
+.home__main-content {
+  width: 65%;
+}
+/* Home - Image */
+.home__image {
+  display: flex;
+  align-items: center;
+
+  width: 45%;
+}
+.home__image img {
+  width: 100%;
+  max-width: 445px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Services */
+/* Services Cards */
+.services-card {
+  width: calc(25% - 1rem);
+}
+
+/* Features */
+.features {
+  text-align: start;
+}
+.features-container {
+  display: flex;
+}
+/* Features - Main Content */
+.features__main-content {
+  width: 65%;
+}
+/* Features - Image */
+.features__image {
+  display: flex;
+  align-items: center;
+  
+  width: 35%;
+  padding: 0;
+}
+.features__image img {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* The Process */
+.the-process {
+  padding-block: 0;
+
+  text-align: start;
+}
+.the-process-container {
+  display: flex;
+  flex-direction: row-reverse;
+
+  padding-inline: 0%;
+}
+
+/* The Process - Main Content */
+.the-process__main-content {
+  width: 50%;
+  padding-inline: 10%;
+}
+
+/* The Process - Image */
+.the-process__image {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 30%;
+  margin-top: 0px;
+}
+.the-process__image img {
+  width: 650px;
+  max-width: 650px;
+
+  object-fit: cover;
+  object-position: center;
+}
+.the-process__image .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.the-process__image .play span {
+  color: var(--bg-quaternary);
+  font-size: 5rem;
+}
+
+
+/* We're Trustworthy */
+.trustworthy-sponsor {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Testimonials Cards */
+.testimonials-cards {
+  display: flex;
+  gap: 1rem;
+}
+/* Testimonials Card - Columm */
+.testimonials-card__columm {
+  gap: 1rem;
+}
+/* Testimonials Card */
+.testimonials-card {
+  margin-top: 1rem;
+}
+
+/* Footer */
+.footer-container {
+  flex-direction: row;
+}

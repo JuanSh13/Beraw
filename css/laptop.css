@@ -102,13 +102,14 @@ header {
 .the-process-container {
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
 
   padding-inline: 0%;
 }
 
 /* The Process - Main Content */
 .the-process__main-content {
-  width: 50%;
+  /* width: 50%; */
   padding-inline: 10%;
 }
 
@@ -120,7 +121,7 @@ header {
   justify-content: center;
   align-items: center;
 
-  width: 30%;
+  /* width: 30%; */
   margin-top: 0px;
 }
 .the-process__image img {
@@ -148,6 +149,13 @@ header {
   justify-content: space-evenly;
 }
 
+/* Our Results */
+/* Statistics Results - Card */
+.statistics-results__card {
+  width: calc(16% - 1rem);
+}
+
+
 /* Testimonials Cards */
 .testimonials-cards {
   display: flex;
@@ -161,6 +169,18 @@ header {
 .testimonials-card {
   margin-top: 1rem;
 }
+
+/* Plans */
+/* Plans Card */
+.plans-card {
+  height: 380px;
+
+  text-align: start;
+}
+.plans-card h4 {
+  font-size: var(--font-xxxl);
+}
+
 
 /* Footer */
 .footer-container {
